@@ -1,11 +1,11 @@
-###Compilation:
+Compilation:
 ---
 ```shell
 $make clean
 $make all
 ```
 
-###Running:
+Running:
 ---
 Use following format
 ```shell
@@ -31,6 +31,6 @@ Options:
 * `-GS`      1 for using Gauss-Southwell rule else 0
 
 
-###External Libraries Used:
+External Libraries Used:
 * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) : Used for matrix operations
 * [ConfigParser](http://www.adp-gmbh.ch/cpp/config_file.html) : Used for reading config files
