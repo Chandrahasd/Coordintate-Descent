@@ -1,3 +1,8 @@
+This is an implementation of Coordinate Descent Algorithms for optimization in C++ done as part of my course project. Following algorithms are implemented.
+* Coordinate Descent
+* [Parallel Coordinate Descent](https://arxiv.org/abs/1212.0873)
+* [Accelerated, Parallel and Proximal Coordinate Descent](https://arxiv.org/abs/1312.5799)
+
 Compilation:
 ---
 ```shell
@@ -21,8 +26,12 @@ Options:
 * `-R` Regularizer.
      * l1: L1 regularizer
      * l2: L2 regularizer
-* `-D` Dataset name. (required)
-    * blog, msd, arcene etc. (Specified in config/files.cfg. To add new dataset, please add it in config/files.cfg with details)
+* `-D` Dataset name. (required) Files are mentioned in config/files.cfg. To add new dataset, please add it in config/files.cfg with details.
+     * blog : [Blog Feedback Data Set](http://archive.ics.uci.edu/ml/datasets/BlogFeedback)
+     * msd : [Year Prediction MSD](http://archive.ics.uci.edu/ml/datasets/YearPredictionMSD)
+     * arcene : [Arcene Data Set](http://archive.ics.uci.edu/ml/datasets/Arcene)
+     * internetAd : [Internet Advertisements Data Set](http://archive.ics.uci.edu/ml/datasets/Internet+Advertisements)
+     * theoremProving : [First-order theorem proving Data Set](http://archive.ics.uci.edu/ml/datasets/First-order+theorem+proving)
 * `-T` number of iterations. (required)
 * `-alpha`  learning rate (required)
 * `-period` Iterations to reduce learning rate ( use -1 for constant learning rate)
