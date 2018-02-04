@@ -16,11 +16,11 @@ Options:
       * pcd: parallel coordinate descent
       * apcd: accelerated parallel coordinate descent
 * `-L` Loss function. (required)
-      * sq: squared loss
-      * log: logistic loss
+     * sq: squared loss
+     * log: logistic loss
 * `-R` Regularizer.
-      * l1: L1 regularizer
-      * l2: L2 regularizer
+     * l1: L1 regularizer
+     * l2: L2 regularizer
 * `-D` Dataset name. (required)
     * blog, msd, arcene etc. (Specified in config/files.cfg. To add new dataset, please add it in config/files.cfg with details)
 * `-T` number of iterations. (required)
